@@ -19,7 +19,7 @@
 5. Now run the main.py file : ```faust -A main worker -l info```
 The above command will make the worker ready. 
 
-6. This is the way to manually test it
+6. This is the way to manually test it ( This is only for agents demo app testing)
 ```
 (1) To test open a new terminal and enter to virtaul env and execute 'docker exec -it cli-tools kafka-topics --list --bootstrap-server broker0:29092'
 __consumer_offsets
